@@ -117,7 +117,6 @@ public HashMap() {
     this.loadFactor = DEFAULT_LOAD_FACTOR; // all other fields defaulted
 }
 ```
-复制代码
 ### HashMap(int initialCapacity)构造方法
 调用HashMap(int initialCapacity, float loadFactor)构造方法，传入默认装载因子。
 ```
@@ -125,7 +124,6 @@ public HashMap(int initialCapacity) {
     this(initialCapacity, DEFAULT_LOAD_FACTOR);
 }
 ```
-复制代码
 ### HashMap(int initialCapacity)构造方法
 判断传入的初始容量和装载因子是否合法，并计算扩容门槛，扩容门槛为传入的初始容量往上取最近的2的n次方。
 ```
